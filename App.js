@@ -21,6 +21,7 @@ const initialState = {
 }
 
 //#2. Create reducer that sits inside store
+//#11. Create a switch for reducing (changing our state) based on our different actions 
 const reducer = (state=initialState, action) => {
     switch (action.type)
         {
